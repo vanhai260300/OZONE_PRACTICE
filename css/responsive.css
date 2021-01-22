@@ -337,7 +337,13 @@
 .main .aboutus .content{
   padding-left: 15px;
 }
-    
+.main .aboutus .image .note p {
+  font-size: 20px;
+  line-height: 28px;
+}
+.main .aboutus .image .note img {
+  width: 8.5vw;
+}
 
 
 }
@@ -380,7 +386,10 @@
   left: -1vw;
   display: none;
 }
-   
+.main .aboutus .image .note {
+  width: 57vw;
+}
+
 }
 @media (max-width: 480px){
     
