@@ -334,7 +334,9 @@
 .main .client-slide .ngoackep img{
   width: 57%;
 }
-
+.main .aboutus .content{
+  padding-left: 15px;
+}
     
 
 
@@ -373,6 +375,10 @@
   display: flex;
   /* padding-bottom: 20px; */
   padding: 10px 20px;
+}
+.main .client-slide .ngoackep {
+  left: -1vw;
+  display: none;
 }
    
 }
