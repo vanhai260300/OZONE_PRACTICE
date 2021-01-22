@@ -392,8 +392,17 @@
 
 }
 @media (max-width: 480px){
+  .main .aboutus .image .note p {
+    font-size: 15px;
+}
     
 }
 @media (max-width: 413px){
+  .main .aboutus .image .note {
+    width: 68vw;
+}
+.main .services .box h1{
+  font-size: 100px;
+}
     
 }

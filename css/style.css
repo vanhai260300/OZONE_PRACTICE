@@ -59,6 +59,14 @@ a {
 * {
     box-sizing: border-box;
 }
+.bt-2d{
+  transition: .5s;
+  width: max-content;
+}
+.bt-2d:hover{
+  transform: scale(1.1,1.1);
+  
+}
 
 .header .header-top{
   position: absolute;
@@ -144,7 +152,7 @@ a {
 }
 .header .header-nav li a{
   list-style: none;
-  padding:  15px 5px;
+  padding:  14px 5px;
   position: relative;
   text-decoration: none;
   font-family: 'Mulish', sans-serif;
@@ -153,6 +161,22 @@ a {
   text-align: center;
 
 color: #F8F8F8;
+}
+.header .header-nav li .active::after{
+  content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #C1F8FF;
+    border-radius: 10px 10px 0px 0px;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+    transform: scale(1);
 }
 .header .header-nav li a::after{
   content: '';
@@ -241,6 +265,7 @@ color: #F8F8F8;
 }
 .header .header-bottom .down img{
   width: 1.5%;
+  padding-top: 3px;
 }
 .main .aboutus{
   padding: 6vw 0;
@@ -600,9 +625,14 @@ color: #F8F8F8;
   width: 6px;
   height: 6px;
   margin: 0 8px;
-
+  cursor: pointer;
   border-radius: 100%;
 }
+.main .client-slide .muti-slickslide .slick-dots li:hover{
+  background: #aaa;
+  transform: scale(1.4,1.4);
+}
+
 .main .client-slide .muti-slickslide .slick-dots button{
   display: none;
 }
@@ -611,6 +641,10 @@ color: #F8F8F8;
   height: 10px;
   background: #ee1f23;
   position: relative;
+}
+.main .client-slide .muti-slickslide .slick-dots .slick-active:hover{
+  background: #ee1f23;
+  transform: scale(1,1);
 }
 .main .client-slide .muti-slickslide .slick-dots .slick-active::after {
   content: "";
@@ -629,6 +663,13 @@ color: #F8F8F8;
   justify-content: center;
   background: url(../image/bg-br.png);
   padding: 2% 0;
+}
+.main .brand a img{
+  transition: 0.5s;
+}
+.main .brand a img:hover{
+  box-shadow: 0 0 30px rgba(103,92,92,.25);
+  transform: scale(1.1,1.1);
 }
 .main .contact {
   background: url(../image/bg_services.png) center;
@@ -771,4 +812,7 @@ footer .top .category a{
 }
 .footer .bottom img{
   margin: 20px;
+}
+.footer .top .register .map{
+  max-width: 100%;
 }
