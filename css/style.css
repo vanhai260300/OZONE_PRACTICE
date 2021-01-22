@@ -231,12 +231,16 @@ color: #F8F8F8;
     display: block;
     margin: auto;
 }
-.header .header-bottom img:nth-child(2){
+.header .header-bottom .down{
   bottom: 0;
   top: 0;
   right: 0;
   left: 0;
-  width: 1%;
+  display: flex;
+  justify-content: center;
+}
+.header .header-bottom .down img{
+  width: 1.5%;
 }
 .main .aboutus{
   padding: 6vw 0;
