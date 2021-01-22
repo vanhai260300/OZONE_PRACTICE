@@ -318,7 +318,10 @@
 .footer .top .register form button{
   padding: 5px 19px;
 }
-
+.footer .top .register .map{
+  display: block;
+  margin: auto;
+}
     
 
 
