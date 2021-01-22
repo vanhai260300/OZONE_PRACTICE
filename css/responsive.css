@@ -254,6 +254,12 @@
     font-size: 16px;
 
   }
+  .main .client .client-slide .info p {
+    font-size: 20px;
+}
+.main .client .client-slide .info p:nth-child(2) {
+  font-size: 16px;
+}
   .main .client-slide .ngoackep {
     left: -5vw;
 }
@@ -322,12 +328,26 @@
   display: block;
   margin: auto;
 }
+.main .client-slide .ngoackep {
+  left: -3vw;
+}
+.main .client-slide .ngoackep img{
+  width: 57%;
+}
+
     
 
 
 }
 
 @media (max-width: 580px){
+  .main .services{
+    background: none;
+  }
+  .main .client .client-slide .info {
+    width: 50vw;
+    right: 3vw;
+}
   .footer .top .category ul {
     display: inline-block;
     text-align: center;
@@ -345,6 +365,14 @@
 .footer .top .register .map{
   display: block;
   margin: auto;
+}
+.main .client-slide .muti-slickslide .slick-dots {
+  bottom: -13px;
+}
+.footer .top .register form {
+  display: flex;
+  /* padding-bottom: 20px; */
+  padding: 10px 20px;
 }
    
 }
