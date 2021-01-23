@@ -118,6 +118,9 @@ a {
   display: block;
   padding-right: 10px;
 }
+.header .header-top .icon-menu{
+  display: none;
+}
 .header .header-top .contact-box .name{
   font-family: Montserrat;
   font-style: normal;
@@ -143,14 +146,14 @@ a {
   padding-bottom: 11px;
   border-bottom: #FFF solid 0.5px;
 }
-.header .header-nav ul{
+.header .header-nav .menu1 ul{
   justify-content: center;
 
 }
-.header .header-nav li{
+.header .header-nav .menu1 li{
   margin: 0 25px;
 }
-.header .header-nav li a{
+.header .header-nav .menu1 li a{
   list-style: none;
   padding:  14px 5px;
   position: relative;
@@ -162,7 +165,7 @@ a {
 
 color: #F8F8F8;
 }
-.header .header-nav li .active::after{
+.header .header-nav .menu1 li .active::after{
   content: '';
     position: absolute;
     width: 100%;
@@ -178,7 +181,7 @@ color: #F8F8F8;
     transition: .3s;
     transform: scale(1);
 }
-.header .header-nav li a::after{
+.header .header-nav .menu1 li a::after{
   content: '';
     position: absolute;
     width: 100%;
@@ -194,8 +197,11 @@ color: #F8F8F8;
     transition: .3s;
     transform: scale(0);
 }
-.header .header-nav li a:hover::after{
+.header .header-nav .menu1 li a:hover::after{
   transform: scale(1);
+}
+.header .header-nav .menu-mobile{
+  display: none;
 }
 .header .header-title{
   position: absolute;
