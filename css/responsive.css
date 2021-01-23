@@ -33,6 +33,7 @@
       .main .aboutus {
         padding: 5vw 0;
     }
+   
       .main .aboutus .content{
         padding-left: 30px;
       }
@@ -65,7 +66,7 @@
       height: 28vw;
   }
   .main .news {
-    padding: 5vw 0 0;
+    padding: 4vw 0;
 }
 .main .news .box-news .box-item .content {
   padding: 5% 5% 9%;
@@ -94,8 +95,18 @@
     font-size: 2.38vw;
     line-height: 28px;
   }
+  .main .aboutus .content .view-more{
+    margin: auto;
+  }
+  .main .aboutus .content .auth, .main .aboutus .content .title{
+    text-align: center;
+    padding-bottom: 10px;
+  }
   .main .aboutus .content{
-    padding-top: 30px;
+    padding: 10px;
+  }
+  .main .aboutus .content{
+    padding-top: 45px;
   }
   .main .services .icon img {
     width: 31%;
@@ -148,6 +159,10 @@
 }
   .main .client-slide .muti-slickslide .slick-dots{
     bottom: -20px;
+  }
+  .main .client-slide .muti-slickslide .slick-dots{
+    position: static;
+    margin-top: 15px;
   }
   .main .contact .container {
     flex-direction: column;
@@ -202,9 +217,19 @@
     font-size: 2.38vw;
     line-height: 28px;
   }
-  .main .aboutus .content{
-    padding-top: 30px;
+  .main .aboutus .content .auth, .main .aboutus .content .title{
+    text-align: center;
+    padding-bottom: 10px;
   }
+  .main .aboutus .content{
+    padding: 10px;
+  }
+  .main .aboutus .content{
+    padding-top: 45px;
+  }
+  .main .aboutus .content .view-more {
+    margin: auto;
+}
   .main .services .icon img {
     width: 31%;
   }
@@ -220,7 +245,7 @@
       line-height: 31px;
   }
   .main .news .box-news .box-item .content p:nth-child(2){
-    font-size: 16px;
+    font-size: 15px;
     line-height: 21px;
   }
   .main .news .view-more {
@@ -234,6 +259,10 @@
   }
   .slick-slide img {
     margin-bottom: 30px;
+  }
+  .main .client-slide .muti-slickslide .slick-dots{
+    position: static;
+    margin-top: 15px;
   }
   .main .services .box{
     padding: 10px 50px 40px;
@@ -344,7 +373,9 @@
 .main .aboutus .image .note img {
   width: 8.5vw;
 }
-
+.main .services .box p{
+  font-size: 15px;
+}
 
 }
 
@@ -389,13 +420,56 @@
 .main .aboutus .image .note {
   width: 57vw;
 }
+.footer .top .register p:nth-child(2){
+  text-align: center;
+}
+.main .brand{
+  padding: 4% 0 1%;
+  
+}
+.main .news .title p:last-child {
+  padding-bottom: 3%;
+  font-size: 39px;
+}
+.main .client-slide .content{
+  padding-top: 0;
+}
+.main .client-slide .content p {
+  font-size: 15px;
+}
+.main .contact .title p{
+  font-size: 39px;
+  letter-spacing: 0.2em;
+}
+.main .aboutus{
+  padding-bottom: 4vw;
+}
+.main .aboutus .content p{
+  font-size: 15px;
+}
+.main .news .box-news .box-item .content p:nth-child(2) {
+  font-size: 15px;
+}
+.main .news .box-news .box-item .content p:first-child {
+  font-size: 22px;
+}
+.main .aboutus {
+  padding-bottom: 2vw;
+}
+.main .news {
+  padding-top: 4vw;
+}
+
 
 }
 @media (max-width: 480px){
   .main .aboutus .image .note p {
     font-size: 15px;
 }
-    
+.main .aboutus .content {
+  padding-top: 35px;
+}
+
 }
 @media (max-width: 413px){
   .main .aboutus .image .note {
