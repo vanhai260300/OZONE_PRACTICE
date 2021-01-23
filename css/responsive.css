@@ -146,31 +146,31 @@
     padding-left: 20px;
     /* margin: auto; */
 }
-  .header .header-nav li a{
+  .header .header-nav .menu1 li a{
     color: #265bc5;
   }
-  .header .header-nav ul {
+  .header .header-nav .menu1 ul {
     justify-content: center ;
     padding-left: 20%;
   }
-  .header .header-nav li {
+  .header .header-nav .menu1 li {
     margin: 0 ;
     margin-left: 15px;
 
   }
-  .header .header-nav li a::after{
+  .header .header-nav .menu1 li a::after{
     background-color: red;
   }
-  .header .header-nav li .active::after{
+  .header .header-nav .menu1 li .active::after{
     background-color: red;
   }
-  .header .header-nav li a:hover {
+  .header .header-nav .menu1 li a:hover {
     color: red;
 }
-  .header .header-nav li .active{
+  .header .header-nav .menu1 li .active{
     color: red;
   }
-  .header .header-nav li a {
+  .header .header-nav .menu1 li a {
     padding: 0px 5px 11px;
   }
   .header .header-title p:first-child{
@@ -574,7 +574,7 @@
 .footer .top .register form {
   display: flex;
   /* padding-bottom: 20px; */
-  padding: 10px 70px;
+  padding: 10px 0;
 }
 .footer .top .register form button{
   padding: 5px 19px;
@@ -689,7 +689,7 @@
 .footer .top .register form {
   display: flex;
   /* padding-bottom: 20px; */
-  padding: 10px 20px;
+  padding: 10px 0px;
 }
 .main .client-slide .ngoackep {
   left: -1vw;
